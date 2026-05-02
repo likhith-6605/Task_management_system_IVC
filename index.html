@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task Management System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+<h1>Task Management System</h1>
+
+<input type="text" id="taskInput" placeholder="Enter Task">
+<input type="date" id="dueDate">
+<select id="priority">
+<option value="High">High Priority</option>
+<option value="Medium">Medium Priority</option>
+<option value="Low">Low Priority</option>
+</select>
+
+<button onclick="addTask()">Add Task</button>
+
+<br><br>
+
+<button onclick="filterTasks('all')">All</button>
+<button onclick="filterTasks('completed')">Completed</button>
+<button onclick="filterTasks('pending')">Pending</button>
+
+<h3>Total Tasks: <span id="taskCount">0</span></h3>
+
+<ul id="taskList"></ul>
+
+</div>
+
+<!-- JS FILES -->
+<script src="addTask.js"></script>
+<script src="editTask.js"></script>
+<script src="deleteTask.js"></script>
+<script src="completeTask.js"></script>
+<script src="taskCounter.js"></script>
+<script src="filterTask.js"></script>
+<script src="storage.js"></script>
+
+</body>
+</html>
