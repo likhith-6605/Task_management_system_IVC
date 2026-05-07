@@ -93,7 +93,7 @@ Each feature was developed independently and later merged into the `main` branch
 
 ## 👨‍💻 Author
 
-**Likhith B, Kushal S, Gagan S, Manish BM, Chetan Gowda, Bhuvan HB**
+**Likhith B, Kushal S, Gagan S, Manish BM, Chetan Gowda **
 
 ## ⭐ Conclusion
 
